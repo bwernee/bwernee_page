@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bwernee Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    h1 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Bwernee Page</h1>
+  </header>
+
+  <main>
+    <p>This is the home of the Bwernee page. You can customize this section with your content.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Bwernee. All rights reserved.
+  </footer>
+</body>
+</html>
