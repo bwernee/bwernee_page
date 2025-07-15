@@ -6,44 +6,85 @@
   <title>Bwernee Page</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
       margin: 0;
-      background-color: #f0f4f8;
-      color: #333;
+      background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+      color: #6a1b4d;
+      background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
     }
+
     header {
-      background-color: #4a90e2;
+      background: linear-gradient(to right, #ff99cc, #ff66b2);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
+      border-bottom: 5px dotted #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      text-shadow: 1px 1px 2px #c2185b;
+    }
+
     main {
-      padding: 20px;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 60vh;
     }
-    footer {
-      background-color: #eee;
+
+    .card {
+      background-color: #fff0f5;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 500px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
       text-align: center;
-      padding: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #f8bbd0;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
       position: fixed;
       width: 100%;
       bottom: 0;
+      color: #6a1b4d;
+      border-top: 2px dashed #ff66b2;
     }
-    h1 {
-      margin: 0;
+
+    .heart {
+      color: #ff69b4;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Bwernee Page</h1>
+    <h1>💖 Welcome to Bwernee Page 💖</h1>
   </header>
 
   <main>
-    <p>This is the home of the Bwernee page. You can customize this section with your content.</p>
+    <div class="card">
+      <p>Hello gorgeous! ✨<br>This is your fabulous and dreamy Bwernee Page. Feel free to add your magical content here. Make it shine and sparkle!</p>
+    </div>
   </main>
 
   <footer>
-    &copy; 2025 Bwernee. All rights reserved.
+    &copy; 2025 Bwernee. Made with <span class="heart">💗</span> and sparkle.
   </footer>
 </body>
 </html>
